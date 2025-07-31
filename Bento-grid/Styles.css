@@ -1,0 +1,457 @@
+body{
+    overflow:hidden;
+     font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsla(255, 88%, 90%, 0.171);
+}
+.div-container {
+  display: grid;
+   grid-template-columns: 300px 600px 300px;
+  grid-template-rows: auto auto;
+  gap: 30px; 
+     padding: 50px 100px;
+    margin: 0 auto;
+    max-width: 1600px;
+    margin-left:300px;
+}
+.content-creation{
+    background-color: hsl(33, 67%, 93%);
+height:500px;
+border-radius:15px;
+ grid-column: 1;
+    grid-row: 1 / span 2; /* Spans both rows */
+    padding: 25px;
+    box-sizing: border-box;
+
+}
+
+.multiline{
+font-size:40px;
+margin:0;
+padding-left:20px;
+padding-top:75px;
+line-height:34px;
+
+ /* top, right, bottom, left (clockwise) */
+}
+.image1{
+    width:70%;
+    padding-top:30px;
+    padding-left:18px;
+}
+.socialMedia-Ad{
+    text-align:center;
+    width:100%;;
+
+    background-color: hsl(256, 67%, 50%);
+    height:350px;
+    border-radius:15px;
+    color:white;
+padding-top:50px;
+ grid-column: 2;
+    grid-row: 1;
+     box-sizing: border-box;
+}
+.socialMedia-Ad h1{
+    font-size:60px;
+    display:block;
+    line-height: 1.2; /* Adjust as needed */
+    margin-bottom: 20px;
+ line-height:0.9;;
+}
+.socialMedia-Ad p {
+    margin: 0 auto ; /* Centers the paragraph */
+    display: block; /* Ensures it's a block element */
+    font-size: 24px;
+    padding-bottom:4px;
+    color: hsla(0, 0%, 100%, 0.815);
+}
+.image2{
+    display:block;
+    margin:0 auto;
+width:35%;
+padding-top:5px;
+padding-bottom:5px;
+}
+.scheduling{
+width:300px;
+height:680px;
+background-color:hsla(255, 88%, 90%, 0.692);
+position:relative;
+border-radius:10px;
+ grid-column: 3;
+    grid-row: 1 / span 2;
+  
+}
+  .image-container {
+    position: absolute;
+    right: 0; /* Aligns to the right (adjust if needed) */
+    width: 90%; /* Width of the visible part */
+    height: 52%;
+    overflow: hidden; /* Cuts off the excess */
+padding-bottom:50px;
+  }
+
+  .image3 {
+    width: 450px; /* Fills the container */
+    height: 100%;
+    object-fit: cover; /* Prevents stretching */
+    display: block; /* Removes extra space under image */
+    border-radius:30px;
+  
+  }
+ .paragraph1 {
+ font-size:40px;
+ padding: 23px 0 0 40px;
+   margin-top: 30px;
+    margin-bottom:20px;
+    line-height:0.8;
+  }
+  .paragraph2{
+padding:350px  0 0 20px;
+white-space: pre;
+font-size:20px;
+  }
+ 
+  .content-info{
+     grid-column:1;
+ grid-row:2 ;
+ background-color: hsl(39, 100%, 71%);
+ border-radius:10px;
+  position: relative;
+  overflow: hidden;
+  height: 480px; /* Match other boxes */
+margin-top:150px;
+box-sizing:border-box;
+font-size:28px;
+padding-left:25px;
+  }
+  .content-info h3{
+    line-height:1.0;
+  }
+
+  .image4{
+    width:100%;
+height:60%;
+padding-top:10px;
+    
+  }
+ .grid-items{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) ;
+width:100%;
+  gap:30px;
+   grid-column: 2; /* Positioned in column 2 */
+    grid-row: 2; /* Positioned in row 2 */
+   
+}
+.accounts{
+background-color:white;
+width:100%;
+height:300px;
+box-sizing:border-box;
+border-radius:12px;
+position:relative;
+overflow:hidden;
+padding:20px;
+
+}
+.accounts h3{
+  font-size:36px;
+  padding-left:20px;
+  line-height:0.9;
+  padding-top:75px;
+}
+.image-container2{ 
+   position: absolute;
+   background-color:rgba(241, 238, 238, 0.432);
+    right:0px; 
+    /* Aligns to the right (adjust if needed) */
+       width:90%; /* Width of the visible part */
+    box-shadow: -3px 3px 100px rgba(0, 0, 0, 0.1);
+padding-top:15px;
+ display: flex;
+ 
+  
+
+}
+
+.image5{
+   width: 350px; /* Fills the container */
+   height:auto;
+    object-fit: cover; /* Prevents stretching */
+    display: block; /* Removes extra space under image */
+     box-shadow: -10px 10px 50px rgba(0, 0, 0, 0); /* Stronger shadow */
+border-radius: 30px 0 0 0; /* Only round top-left corner */
+}
+.posting-schedule{
+  background-color: hsl(39, 100%, 71%);
+overflow:hidden;
+  height:300px;
+  border-radius:12px;
+  position:relative;
+  overflow:hidden;
+  box-sizing:border-box;
+  padding:25px;
+width:100%;
+  
+}
+.posting-schedule h3{
+  font-size:36px;
+  margin-top:2px;
+   
+  margin-bottom: 20px;
+  line-height:1.0;
+}
+.image6-container{
+     position: absolute;
+left:50%;
+    bottom: 0;
+    width: 150%; /* Full width of parent */
+   height: 60%;
+  overflow: hidden;
+  transform: translateX(-50%);
+
+  
+}
+.image6 {
+    width:100%; /* Image takes 80% of container width */
+    height: 75%;
+    object-fit: cover;
+    object-position: center bottom;
+   display: block;
+  margin: 0 auto; /* Center the visible portion */
+
+    border-radius: 12px; 
+}
+
+.audience-growth{
+background-color:white;
+width:100%;
+height:300px;
+border-radius:12px;
+box-sizing:border-box;
+position:relative;
+overflow:hidden;
+}
+.audience-growth h1 {
+    font-size: 68px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+    color: #000;
+    padding-left:15px;
+}
+
+.audience-growth p {
+  white-space:pre;
+    font-size: 23px;
+    margin-top: 5px;
+    margin-left:20px;
+    color: #333;
+        width: 60%;
+}
+.audience-growth img {
+    position: absolute;
+   bottom:0;
+        width: 85%;
+      padding-bottom:24px;
+  padding-left:19px;
+    object-fit: contain;
+   display: block;
+  margin: 0 auto; 
+    border-radius: 12px 0 0 0;
+}
+.schedule-post {
+       background-color:hsl(256, 67%, 59%);
+    width:610px;
+    height: 300px;
+    border-radius: 12px;
+    padding: 25px;
+    display:flex;
+    overflow: hidden;
+      box-sizing: border-box; 
+
+}
+.h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0;
+    color:white;
+    margin-top: 50px;
+  margin-left:290px;
+}
+.schedule-post img {
+    position: absolute;
+       width: 290px; 
+    object-fit: contain;
+   object-position:center;
+    border-radius: 12px 0 0 0;
+}
+/* Mobile First (375px and below) */
+@media (max-width: 375px) {
+  /* Reset global overflow */
+  body, html {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    width: 100%;
+  }
+
+  /* Force single-column layout */
+  .div-container {
+    display: flex !important;
+    flex-direction: column;
+    padding: 20px !important;
+    margin: 0 !important;
+    gap: 20px;
+  }
+
+  /* Adjust container order */
+  .socialMedia-Ad {
+    order: -1; /* Top */
+    height:230px;
+  }
+
+  .accounts {
+    order: 2; /* Second */
+    height:200px;
+  }
+  .accounts h3{
+    font-size:5px;
+    margin-top:2px !important;
+  }
+
+  .posting-schedule {
+    order: 3; /* Third */
+       height:40% !important;
+  }
+.content-creation{
+  height:200px;
+}
+.content-creation h1{
+  font-size:20px;
+  line-height:0.9;
+  padding-top:5px !important;
+}
+  .audience-growth {
+    height:180px;
+
+  }
+  .audience-growth img{
+    width:50%;
+  }
+
+  .schedule-post {
+    order: 5; /* Last */
+    background: hsl(256, 67%, 59%);
+    color: white;
+    padding: 25px;
+
+  }
+  .schedule-post img{
+    width:50%;
+margin-left:50px;
+  }
+  .scheduling{
+    height:480px;
+  }
+.paragraph1{
+font-size:20px;
+  margin-top:5px !important;
+}
+.paragraph2{
+  margin-top:5px !important;
+}
+.content-info{
+  height:350px;
+  margin-top:10px !important;
+}
+.content-info h3{
+  font-size:24px;
+}
+  /* Typography adjustments */
+  .socialMedia-Ad h1 {
+    font-size: 28px !important;
+    text-align: left;
+    padding-left: 15px;
+   
+  }
+
+  .accounts h3 {
+    font-size: 24px !important;
+    padding-top: 20px !important;
+  }
+
+  .posting-schedule h3 {
+    font-size: 22px !important;
+  }
+ 
+
+  .schedule-post h2 {
+    font-size: 20px !important;
+  margin-top:160px;
+  margin-left:0 !important; 
+  }
+
+  .audience-growth h1 {
+    font-size: 36px !important;
+  }
+
+  .audience-growth p {
+    font-size: 16px !important;
+    white-space: normal !important;
+  }
+
+  /* Stacked grid items */
+  .grid-items {
+    display: flex !important;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Image fixes */
+  .image1 {
+    width: 50% !important; /* Full width */
+    border-radius: 12px !important;
+    height: auto;
+    -top:0px;
+  }
+
+  .image2 {
+    width: 75% !important; /* Smaller width */
+    border-radius: 12px !important;
+    height: auto;
+    align-self: center; /* Centering smaller image */
+  }
+
+  .image3, .image5 {
+    width: 100% !important; /* Full width */
+    border-radius: 12px !important;
+    height: auto;
+  }
+  .image6{
+width:70%;
+margin-left:1px !important;
+  }
+  .image4{
+    width:65%;
+    height:48%;
+  }
+
+  /* Remove absolute positioning */
+  .image-container,
+  .image-container2,
+  .image6-container {
+    position: relative !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}
+
+/* Desktop (1024px and up) */
+@media (min-width: 1024px) {
+  .div-container {
+    grid-template-columns: 300px 600px 300px;
+    margin-left: 300px;
+  }
+}
